@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Registration</title>
+    <link rel="stylesheet" href="Nike.css">
+</head>
+<body>
+    <div class="membership-container">
+        <div class="logo">
+            <img src="nike logo.jpeg">
+        </div>
+        <h1>BECOME A NIKE MEMBER</h1>
+        <form class="membership-form">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="">Select</option>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <!-- Add more countries as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="product-item">
+                    <input type="checkbox" id="product3" name="product" value="product3">
+                    <label for="product3">Sign up for Emails to get updates from Nike on products, offers and your Member benefits</label>
+                </div>
+                <label for="terms">I agree to the <a href="#">terms and conditions</a></label>
+            </div>
+            <button type="submit">JOIN US</button>
+        </form>
+        <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+    </div>
+</body>
+</html>
